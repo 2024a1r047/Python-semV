@@ -34,4 +34,23 @@ print(word[1::2])
 
 password=input("Enter Password: ")
 password1=password.find("@") and len(password)>=8
-print (password1)'''
+print (password1)
+
+13. write python program to take a string and seperate characters present at even index positions and odd index positions
+
+word= input("Enter Word:")
+print("eben position:", word[1::2])
+print("Odd position:", word[0::2])
+
+14. take an email address and check whether it contains @ and .com
+
+email=input("Enter email:")
+email1 = email.find("@")!=- email.find(".com")!=-1
+print(email1)
+
+15. take a semntence containg doubel spaces and unwanted spaces at the begining or end. Clean the sentence
+
+sentence= input("enter sentence:")
+sentence=sentence.replace("  "," ")
+print(sentence.strip())'''
+
