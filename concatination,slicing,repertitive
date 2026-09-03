@@ -1,0 +1,7 @@
+4.Take name, branch, and year, generate a code name using string concatination, slicing,and repeatetive
+
+name=input("Enter Name:")
+branch = input("Enter your branch:")
+year = input("Enter year:")
+code = name[:4]+branch[0:4]+year[-3:]
+print("Codeword:",code)
