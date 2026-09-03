@@ -1,0 +1,5 @@
+ 5. Take a password and check length, presence of @, and whether first and last characters are different
+
+pw = input("Enter the password:")
+w=pw.find("@")!=-1 and pw.find(".com")!=-1
+print(w, pw[0]==pw[-1]) '''
