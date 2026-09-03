@@ -1,0 +1,7 @@
+#1.Take student full name and roll number. Generate email using first 3 letters of first name, first 3 letters of last name, and lst 3 characters of roll number.
+
+name=input("Enter First Name:")
+name1=input("enter Last Name:")
+rollno=input("Enter RollNo.:")
+email=name[:3]+name1[:3]+rollno[-3:]+"@gmail.com"
+print(email)
