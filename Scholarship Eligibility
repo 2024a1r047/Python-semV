@@ -1,0 +1,15 @@
+# write a python program to determine whether a student is eligible for a scholorship
+# the scholorship should be grsnted if the student satisfies either of the following conditions:
+# a) the student has a CGPA of 8.5 or above and attendence of 85 percent or above
+# b) the student has won a national-level competition
+# The program should take CGPA, attendence percentage, and national-level competion status as input, then display whether the student is eligible for the scholorship.
+
+cgpa = float(input("Enter CGPA: "))
+attendance = float(input("Enter attendance percentage: "))
+competition = input("Won national-level competition? (yes/no): ")
+
+if (cgpa >= 8.5 and attendance >= 85) or competition.lower() == "yes":
+    print("Student is eligible for scholarship")
+else:
+    print("Student is not eligible for scholarship")
+
