@@ -1,0 +1,7 @@
+2.Take roll number like 2024a1r047 and extract admision year, program code,
+and roll number digits using slicing
+
+rollno="2024A1R047"
+print("Admission year:",rollno[0:4])
+print("Program code:",rollno[4:7])
+print("Rollno:",rollno[-3:])
