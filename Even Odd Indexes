@@ -1,0 +1,5 @@
+13. write python program to take a string and seperate characters present at even index positions and odd index positions
+
+word= input("Enter Word:")
+print("eben position:", word[1::2])
+print("Odd position:", word[0::2])
