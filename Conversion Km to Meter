@@ -1,0 +1,7 @@
+# write program to take distance in kilometers and convert it into meters, centimeters and milimeters
+
+distance=int(input("Enter distance in km:"))
+meter=distance*1000
+cm=meter*100
+milim=cm*10
+print(f"In Meter=",meter,"In Cm=",cm,"In millimeter=",milim)
