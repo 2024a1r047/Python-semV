@@ -1,0 +1,6 @@
+9. write a python prog to take  aword and print it in reverse order using slicing.Also check whether it is the same forward and backward
+
+word=input("Enter word:")
+word1=word[::-1]
+print(word)
+print(word==word1)
