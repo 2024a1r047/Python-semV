@@ -1,0 +1,9 @@
+# write a python program to calculate simple interest and total amount using principal,Rate, amd time entered by the user
+
+# Principal=int(input("Enter princ:"))
+# Rate=int(input("Enter Rate:"))
+# Time=int(input("Enter Time:"))
+# SI=(Principal*Rate*Time)/100
+# TA=SI+Principal
+# print(SI)
+# print(TA)
