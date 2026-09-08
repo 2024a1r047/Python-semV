@@ -1,0 +1,5 @@
+# program to convet temp from celsius to fahrenheit
+
+# temp=int(input("Enter temp:"))
+# farh=temp*(9/5)+32
+# print(farh)
