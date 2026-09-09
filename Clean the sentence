@@ -1,0 +1,5 @@
+15. take a semntence containg doubel spaces and unwanted spaces at the begining or end. Clean the sentence
+
+sentence= input("enter sentence:")
+sentence=sentence.replace("  "," ")
+print(sentence.strip())'''
