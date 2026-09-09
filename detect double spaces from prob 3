@@ -1,0 +1,4 @@
+# 4.Write a pyhton program to detect double spaces from problem 3 with single spaces
+sentence=input("Enter text:")
+sentence=sentence.replace("  "," ")
+print(sentence)
