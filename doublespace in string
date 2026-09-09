@@ -1,0 +1,6 @@
+# 3.Write a python program to detect double space in  a string.
+
+
+# sentence= input("Enter Text:")
+# print(sentence.find("  "))
+# print("Double space Detected")
