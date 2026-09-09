@@ -1,0 +1,4 @@
+# 1. write a python prog to diaplay a user entered name followed by "goodAftenoon"using input function use fstream
+
+# name=input("enter name:")
+# print(f"Good Afternoon",{name})
