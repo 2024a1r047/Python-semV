@@ -1,0 +1,10 @@
+3.Write a python program to show that tuple values cannot be changed directly. Convert tuple into list, update it , and  convert it back into tuple.
+
+t = (10, 20, 30, 40)
+print("Original tuple:", t)
+# Convert tuple into list
+l = list(t)
+# Update
+l[1] = 50
+t = tuple(l)
+print("Updated tuple:", t)
