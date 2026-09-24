@@ -1,0 +1,19 @@
+7. write a pyhton program to store multiple student records as a list of tuples. Each tuple should contain name,rollnumber, and students who scored above 75
+
+students = [
+    ("Alice", 101, 82),
+    ("Bob", 102, 68),
+    ("Charlie", 103, 91),
+    ("David", 104, 74),
+    ("Emma", 105, 78)
+]
+
+print("All Student Records:")
+print(students)
+
+print("\nStudents scoring above 75:")
+for student in students:
+    name, roll_no, marks = student
+    if marks > 75:
+        print(f"Name: {name}, Roll No: {roll_no}, Marks: {marks}")
+'''
