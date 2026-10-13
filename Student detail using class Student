@@ -1,0 +1,11 @@
+1.Create a Student class to storea students name and roll number.isinstance Create an object and display the details using an instance method.
+
+class Student:
+    def __init__(self,name,roll_no):
+        self.name=name
+        self.roll_no=roll_no
+    def display(self):
+        print("Student Name:",self.name)
+        print("Student Roll_no:",self.roll_no)
+S1=Student("Roshni",47)
+S1.display()
