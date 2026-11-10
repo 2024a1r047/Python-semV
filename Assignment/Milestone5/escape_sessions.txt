@@ -1,0 +1,3 @@
+S101,Code Breakers,Lost Laboratory,4,42.5,2,60,48.5,ESCAPED
+S102,Puzzle Pirates,Ancient Vault,5,30.0,1,50,33.0,FAST ESCAPE
+S103,Mind Benders,Space Station,3,44.0,2,45,50.0,TIME EXCEEDED
