@@ -1,0 +1,48 @@
+#Write a program to implement an employee management system using classes, instances and inheritance.
+#  Parent class
+class Employee:
+    def __init__(self, name, emp_id, salary):
+        self.name = name
+        self.emp_id = emp_id
+        self.salary = salary
+
+    def display_details(self):
+        print("Employee Name:", self.name)
+        print("Employee ID:", self.emp_id)
+        print("Salary:", self.salary)
+
+
+# Child class
+class Manager(Employee):
+    def __init__(self, name, emp_id, salary, department):
+        super().__init__(name, emp_id, salary)
+        self.department = department
+
+    def display_details(self):
+        super().display_details()
+        print("Department:", self.department)
+
+
+# Taking input from user
+print("Enter Employee Details:")
+name = input("Enter Name: ")
+emp_id = input("Enter Employee ID: ")
+salary = float(input("Enter Salary: "))
+
+emp1 = Employee(name, emp_id, salary)
+
+print("\nEnter Manager Details:")
+name = input("Enter Name: ")
+emp_id = input("Enter Employee ID: ")
+salary = float(input("Enter Salary: "))
+department = input("Enter Department: ")
+
+emp2 = Manager(name, emp_id, salary, department)
+
+
+# Displaying details
+print("\n----- Employee Details -----")
+emp1.display_details()
+
+print("\n----- Manager Details -----")
+emp2.display_details()
